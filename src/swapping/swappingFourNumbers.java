@@ -12,13 +12,11 @@ public class swappingFourNumbers {
         System.out.println("Value of D:" + d);
         System.out.println("------------------------");
 
-        int temp1 = a;
-        a = d;
-        d = temp1;
-
-        int temp2 = b;
-        b = c;
-        c = temp2;
+        int temp = a;
+        a = b;
+        b = c ;
+        c = d;
+        d = temp;
 
         System.out.println("Value of A:" + a);
         System.out.println("Value of B:" + b);

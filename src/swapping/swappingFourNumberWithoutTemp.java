@@ -11,13 +11,14 @@ public class swappingFourNumberWithoutTemp {
         System.out.println("Value of C:" + c);
         System.out.println("Value of D:" + d);
         System.out.println("------------------------");
-        a = a + b;
-        b = a - b ;
-        a = a - b ;
 
-        c = c + d;
-        d = c - d;
-        c = c - d;
+
+          d = a + b + c + d;
+          c = d - (a + b + c);
+          b = d - (a + b + c);
+          a = d - (a + b + c);
+          d = d - (a + b + c);
+
 
         System.out.println("Value of A:" + a);
         System.out.println("Value of B:" + b);
