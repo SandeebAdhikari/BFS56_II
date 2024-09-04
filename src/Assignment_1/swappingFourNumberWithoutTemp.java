@@ -1,23 +1,24 @@
-package swapping;
+package Assignment_1;
 
-public class swappingFourNumbers {
+public class swappingFourNumberWithoutTemp {
     public static void main(String[] args) {
-        swappingFourNumber(1,2,3,4);
+        swappingFourNumbersWithoutTemps(1,2,3,4);
     }
 
-    private static void swappingFourNumber(int a, int b, int c, int d) {
+    private static void swappingFourNumbersWithoutTemps(int a, int b, int c, int d) {
         System.out.println("Value of A:" + a);
         System.out.println("Value of B:" + b);
         System.out.println("Value of C:" + c);
         System.out.println("Value of D:" + d);
         System.out.println("------------------------");
 
-        int temp = a;
-        a = b;
-        b = c ;
-        c = d;
-        d = temp;
-        temp = 0;
+
+          d = a + b + c + d;
+          c = d - (a + b + c);
+          b = d - (a + b + c);
+          a = d - (a + b + c);
+          d = d - (a + b + c);
+
 
         System.out.println("Value of A:" + a);
         System.out.println("Value of B:" + b);

@@ -1,4 +1,4 @@
-package swapping;
+package Assignment_1;
 
 public class finalBillAmount {
     public static void main(String[] args) {

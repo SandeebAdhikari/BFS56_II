@@ -1,4 +1,4 @@
-package swapping;
+package Assignment_1;
 
 public class taxAmount {
     public static void main(String[] args) {

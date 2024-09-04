@@ -1,4 +1,4 @@
-package swapping;
+package Assignment_1;
 
 public class interestAndFinalAmount {
     public static void main(String[] args) {
