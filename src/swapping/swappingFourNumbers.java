@@ -17,6 +17,7 @@ public class swappingFourNumbers {
         b = c ;
         c = d;
         d = temp;
+        temp = 0;
 
         System.out.println("Value of A:" + a);
         System.out.println("Value of B:" + b);

@@ -13,7 +13,7 @@ public class Swapping {
         int temp = a;
         a = b;
         b= temp;
-
+        temp = 0;
         System.out.println("Value of A:" + a);
         System.out.println("Value of B:" + b);
     }
