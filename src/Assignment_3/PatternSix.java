@@ -16,5 +16,4 @@ public class PatternSix {
             System.out.println();
         }
     }
-
 }
