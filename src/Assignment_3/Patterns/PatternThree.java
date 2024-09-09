@@ -1,4 +1,4 @@
-package Assignment_3;
+package Assignment_3.Patterns;
 
 public class PatternThree {
     public static void main(String[] args) {

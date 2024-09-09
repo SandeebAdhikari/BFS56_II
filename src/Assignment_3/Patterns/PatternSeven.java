@@ -1,4 +1,4 @@
-package Assignment_3;
+package Assignment_3.Patterns;
 
 import java.util.Arrays;
 
