@@ -12,6 +12,7 @@ public class ArmstrongNumber {
             System.out.println("The number "+num+" is not Armstrong Number ");
         }
     }
+
     private static boolean armstrongNumber(String num){
         int n = num.length();
         int sum = 0;
