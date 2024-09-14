@@ -11,13 +11,13 @@ public class ReverseValueOfAnArray {
         int length = array.length;
         int [] newArray = new int[length];
         int newLength = length;
+        System.out.print("Original array is: \n");
         for(int i = 0; i < length; i++){
-            System.out.println(array[i]+ " ");
+            System.out.print(array[i]+ " ");
             newArray[newLength-1] = array[i];
-            newLength = newLength -1;
+            newLength = newLength - 1;
         }
-
-        System.out.println("Reversed array is: \n");
+        System.out.print("\nReversed array is: \n");
         for (int k = 0; k < length; k++) {
             System.out.print(newArray[k]+ " ");
         }
