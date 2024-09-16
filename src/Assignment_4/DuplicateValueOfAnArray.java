@@ -11,7 +11,7 @@ public class DuplicateValueOfAnArray {
         boolean hasDuplicate = false;
         System.out.println("Duplicate values on array: ");
         for(int i = 0; i < number.length; i++){
-            for(int j = i +1; j <number.length; j++) {
+            for(int j = i + 1; j <number.length; j++) {
                 if (number[i] == number[j]) {
                     System.out.print(number[i] + " ");
                     hasDuplicate = true;
